@@ -34,13 +34,13 @@ set.fillchars = "eob: "
 --vim.g.gruvbox_material_background  = 'hard'
 --vim.g.gruvbox_material_better_performance = 1
 --vim.g.gruvbox_material_foreground = 'material'
-vim.g.sonokai_style = 'andromeda'
-vim.g.sonokai_better_performance = 1
-vim.g.sonokai_enable_italic = 1
+--vim.g.sonokai_style = 'andromeda'
+--vim.g.sonokai_better_performance = 1
+--vim.g.sonokai_enable_italic = 1
 
-vim.cmd([[
-    colorscheme sonokai 
-]])
+--vim.cmd([[
+--    colorscheme sonokai 
+--]])
 
 vim.notify = require("notify")
 
