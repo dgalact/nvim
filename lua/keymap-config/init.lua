@@ -3,7 +3,8 @@ local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = " " -- leader key
 
---> Goyo <--
+--> Turn off search highlight <--
+map("n", "<leader>,", ":nohlsearch<CR>", opts)
 --> nvim tree mappings <--
 map("n", "<leader>t", ":NvimTreeToggle<CR>", opts)
 map("n", "<leader>gt", ":NvimTreeFocus<CR>", opts)
